@@ -13,9 +13,7 @@ public class moveMap : MonoBehaviour
     {
         GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height / 2) / distance);
     }
-
-
-
+    
     private void FixedUpdate()
     {
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
