@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class moveCharacter : MonoBehaviour
 {
-    // private Vector3 startingposition = new Vector3 (1.4, -5.56, 10);
     private Vector2 position;
     public float height, speed;
 
