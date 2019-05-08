@@ -18,6 +18,9 @@ public class moveCharacter : MonoBehaviour
             //add fall
         }
         if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            //when the user pushes the down key, the character moves down based on the jump's height
+            position = new Vector2(transform.position.x, transform.position.y - height);
+        }
         
     }
 }
